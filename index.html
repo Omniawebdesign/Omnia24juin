@@ -756,8 +756,6 @@ document.getElementById('upload-form').addEventListener('submit', function (even
 
   var files = fileInput.files; // Récupère tous les fichiers sélectionnés
 
-  var uploadPromises = []; // Tableau pour stocker les promesses de téléchargement
-
   for (var i = 0; i < files.length; i++) {
     var file = files[i]; // Récupère un fichier individuel
 
@@ -765,45 +763,26 @@ document.getElementById('upload-form').addEventListener('submit', function (even
 
     var uploadTask = storageRef.put(file); // Télécharge le fichier vers Firebase Storage
 
-    // Crée une promesse de téléchargement pour chaque fichier
-    var uploadPromise = new Promise(function (resolve, reject) {
-      uploadTask.on(
-        'state_changed',
-        function (snapshot) {
-          // Gestionnaire de progression du téléchargement
-          var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          console.log('Upload is ' + progress + '% done');
-        },
-        function (error) {
-          // Gestionnaire d'erreur du téléchargement
-          console.error('Upload error:', error);
-          reject(error); // Rejette la promesse en cas d'erreur
-        },
-        function () {
-          // Gestionnaire de réussite du téléchargement
-          console.log('Upload successful!');
-          resolve(); // Résout la promesse lorsque le téléchargement est terminé
-        }
-      );
-    });
-
-    uploadPromises.push(uploadPromise); // Ajoute la promesse de téléchargement au tableau
+    // Gérez les événements de progression, de réussite et d'erreur du téléchargement pour chaque fichier
+    uploadTask.on(
+      'state_changed',
+      function (snapshot) {
+        // Gestionnaire de progression du téléchargement
+        var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+        console.log('Upload is ' + progress + '% done');
+      },
+      function (error) {
+        // Gestionnaire d'erreur du téléchargement
+        console.error('Upload error:', error);
+      },
+      function () {
+        // Gestionnaire de réussite du téléchargement
+        console.log('Upload successful!');
+        // Ici, vous pouvez ajouter le code pour gérer la réussite du téléchargement de chaque fichier
+      }
+    );
   }
-
-  // Attendez que toutes les tâches de téléchargement soient terminées
-  Promise.all(uploadPromises)
-    .then(function () {
-      // Tous les fichiers ont été téléchargés avec succès
-      console.log('All uploads completed!');
-      // Ajoutez le code supplémentaire ici pour gérer le succès du téléchargement de tous les fichiers
-    })
-    .catch(function (error) {
-      // Une erreur s'est produite pendant le téléchargement d'au moins un fichier
-      console.error('Upload error:', error);
-      // Ajoutez le code supplémentaire ici pour gérer les erreurs de téléchargement
-    });
 });
-
 
 
 </script>
