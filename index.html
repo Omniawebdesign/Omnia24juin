@@ -750,7 +750,39 @@
 
 
 
+<script>
+document.getElementById('upload-form').addEventListener('submit', function (event) {
+  event.preventDefault(); // Empêche l'envoi du formulaire par défaut
 
+  // Récupérez le fichier sélectionné par l'utilisateur
+  var file = fileInput.files[0];
+
+  // Créez une référence au chemin de stockage souhaité
+  var storageRef = storage.ref('photos/' + file.name);
+
+  // Téléchargez le fichier vers Firebase Storage
+  var uploadTask = storageRef.put(file);
+
+  // Gérez les événements de progression, de réussite et d'erreur du téléchargement
+  uploadTask.on('state_changed',
+    function (snapshot) {
+      // Gestionnaire de progression du téléchargement
+      var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+      console.log('Upload is ' + progress + '% done');
+    },
+    function (error) {
+      // Gestionnaire d'erreur du téléchargement
+      console.error('Upload error:', error);
+    },
+    function () {
+      // Gestionnaire de réussite du téléchargement
+      console.log('Upload successful!');
+      // Ici, vous pouvez ajouter le code pour gérer la réussite du téléchargement, comme afficher un message de réussite à l'utilisateur
+    }
+  );
+});
+
+</script>
 
 
 
