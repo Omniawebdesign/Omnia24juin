@@ -92,6 +92,7 @@ span{
       justify-content: center;
       /*gap: 1.25rem;*/
       width: 96%;
+      box-shadow: 0 0.2em 0.85em rgb(0 0 0 / 30%);
     }
     #services-9343 .cs-item {
       width: 100%;
@@ -100,7 +101,7 @@ span{
       /* 24px - 48px */
       padding: clamp(1.5rem, 3.5vw, 3rem);
       
-       box-shadow: 0 0.2em 0.85em rgb(0 0 0 / 30%);
+       /* box-shadow: 0 0.2em 0.85em rgb(0 0 0 / 30%); */
       
       /* prevents padding from affecting height and width */
       box-sizing: border-box;
