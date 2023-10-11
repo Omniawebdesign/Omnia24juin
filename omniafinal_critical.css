@@ -1777,7 +1777,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
 }
 
                                 
-#faq-326 h2{
+#faq-326 h2:nth-child(2){
   color: #4E4B66;
   font-size: 18px;
 }
