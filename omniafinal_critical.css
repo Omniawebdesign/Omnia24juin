@@ -277,7 +277,7 @@ h3{
 .spannie{
     display: block !important;
     text-align: center;
-    color: var(--bodyTextColor);
+    color: #000;
     margin-bottom: 5em;
     max-width: 600px;
     margin-right: auto;
