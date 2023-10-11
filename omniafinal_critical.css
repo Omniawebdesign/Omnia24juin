@@ -1043,6 +1043,9 @@ h3{
   display: block;
   margin: auto;
   margin-bottom: 1em;
+  font-family: 'poppinsregular';
+  
+  
 }
 
 #services .cs-desc {
