@@ -1679,7 +1679,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
         transition: border-bottom 0.3s;
     }
     #faq-326 .cs-faq-item.active .cs-button {
-        background-color: var(--primary);
+        background-color: #f7f7f7;
         color: var(--secondaryLight);
     }
     #faq-326 .cs-faq-item.active .cs-button:before {
