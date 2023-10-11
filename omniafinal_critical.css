@@ -359,7 +359,7 @@ h3{
       --primary: #176316;
       --primaryLight: #6EDF6D;
       --headerColor: #000;
-      --bodyTextColor: #4E4B66;
+      --bodyTextColor: #000;
       /* 13px - 16px */
       --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
       /* 31px - 49px */
@@ -521,7 +521,7 @@ h3{
       --primaryLight: #3396fc;
       --secondary: pink;
       --headerColor: #000;
-      --bodyTextColor: #4E4B66;
+      --bodyTextColor: #000;
       --bodyTextColorWhite: #FAFBFC;
       /* 13px - 16px */
       --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
@@ -1367,7 +1367,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
     --secondary: purple;
     --secondaryLight: lightgreen;
     --headerColor: #1a1a1a;
-    --bodyTextColor: #4E4B66;
+    --bodyTextColor: #000;
     --bodyTextColorWhite: #FAFBFC;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
