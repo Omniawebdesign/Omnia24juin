@@ -1659,6 +1659,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
 
     #faq-326 .cs-title {
         margin: 0;
+      font-size: 49px;
     }
     #faq-326 .cs-faq-group {
         padding: 0;
