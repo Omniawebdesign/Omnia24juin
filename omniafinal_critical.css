@@ -1639,7 +1639,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
     }
     #faq-326 .cs-container {
         width: 100%;
-        max-width: 43.75rem;
+        max-width: 70rem;
         margin: auto;
         display: flex;
         flex-direction: column;
