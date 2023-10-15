@@ -794,12 +794,12 @@ h3{
       position: absolute;
       height: 100%;
       width: 0%;
-      background: var(--secondary);
+      background: #31333e;
       opacity: 1;
       top: 0;
       left: 0;
       z-index: -1;
-      border-radius: 0.25rem;
+      border-radius: 35px;
       transition: width .3s;
     }
     #pricing-7919 .cs-button-solid:hover:before {
