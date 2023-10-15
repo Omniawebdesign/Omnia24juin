@@ -666,8 +666,14 @@ h3{
       
       
     }
-    #pricing-7919 .cs-popular .cs-button-solid:hover {
-      color: black;
+    #pricing-7919 .cs-popular .cs-button-solid:nth-child(1):hover {
+      color: pink;
+    }
+  #pricing-7919 .cs-popular .cs-button-solid:nth-child(3):hover {
+      color: pink;
+    }
+  #pricing-7919 .cs-popular .cs-button-solid:hover {
+      color: purple;
     }
     #pricing-7919 .cs-popular .cs-li-img {
       /* turns the check mark white */
