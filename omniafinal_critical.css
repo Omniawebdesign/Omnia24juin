@@ -1688,11 +1688,11 @@ padding: clamp(2rem, 3.5vw, 3rem);
         color: var(--secondaryLight);
     }
     #faq-326 .cs-faq-item.active .cs-button:before {
-        background-color: var(--secondaryLight);
+        background-color: var(--headerColor);
         transform: rotate(315deg);
     }
     #faq-326 .cs-faq-item.active .cs-button:after {
-        background-color: var(--secondaryLight);
+        background-color: var(--headerColor);
         transform: rotate(-315deg);
     }
     #faq-326 .cs-faq-item.active .cs-item-p {
