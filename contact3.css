@@ -198,7 +198,7 @@
     font-weight: 700;
     line-height: 1.2em;
     margin-bottom: 0.5rem;
-    color: #f35444;
+    color: var(--headerColor);
     display: block;
   }
   #cs-contact-4630 .cs-link {
