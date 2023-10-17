@@ -35,7 +35,7 @@ span{
       --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
       --bodyFontSize: 1rem;
       /* 60px - 100px top and bottom */
-      --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 2.1rem;
+      --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1.5rem;
     }
     #services-9343 {
       font-family: 'Roboto', 'Arial', sans-serif;
@@ -366,7 +366,7 @@ h3{
       --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
       --bodyFontSize: 1rem;
       /* 60px - 100px top and bottom */
-      --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 2.1rem;
+      --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1.5rem;
     }
     #services-4578 {
       font-family: 'Roboto', 'Arial', sans-serif;
@@ -1100,7 +1100,7 @@ h3{
     /* 31px - 49px */
     --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
     /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 2.1rem;
+    --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1.5rem;
   }
   #gallery-6188 {
     font-family: 'Roboto', 'Arial', sans-serif;
