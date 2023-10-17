@@ -80,7 +80,7 @@
     font-weight: 400;
     font-size: min(12vw, 4em);
     color: var(--body);
-    text-align: center;
+    text-align: left;
     line-height: 1.171875;
     margin: auto;
     width: 100%;
@@ -95,7 +95,7 @@
     margin-bottom: 2.8em;
     color: var(--body);
     width: 100%;
-    text-align: center;
+    text-align: left;
     max-width: 38.66666667em;
     opacity: 1;
     font-weight: bold;
