@@ -273,4 +273,10 @@
       text-align: left;
     }
   }
-                                
+
+@media only screen and (max-width: 64em) {
+#hero .heroText{
+  margin-left: 2.5em
+  margin-right: 2.5em;
+}
+}
