@@ -66,6 +66,8 @@
     width: 100%;
     margin: auto;
     /*max-width: 56.875em;*/
+    padding-left: 2em;
+    padding-right: 2.5em;
   }
   #hero .topper {
     font-weight: 600;
@@ -275,8 +277,4 @@
   }
 
 
-#hero .heroText{
-  margin-left: 2.5em
-  margin-right: 2.5em;
-}
 
