@@ -92,6 +92,7 @@ span{
       justify-content: center;
       /*gap: 1.25rem;*/
       width: 96%;
+      border-radius: 10px;
       box-shadow: 0 0.2em 0.85em rgb(0 0 0 / 30%);
     }
     #services-9343 .cs-item {
