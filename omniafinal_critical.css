@@ -1046,7 +1046,7 @@ h3{
 }
 
 #services .cs-header{
-  color: white;
+  color: #000;
   text-align: center;
   display: block;
   margin: auto;
@@ -1058,7 +1058,7 @@ h3{
 
 #services .cs-desc {
   text-align: left;
-  color: white;
+  color: #000;
   text-align: center !important;
   display: block;
   margin: auto;
