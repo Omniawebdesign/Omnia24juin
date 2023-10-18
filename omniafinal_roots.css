@@ -299,6 +299,7 @@ span{
   #navigation .logo img {
     width: auto;
     height: 100%;
+    margin-left: 5.1px;
   }
   #navigation .logo .light {
     display: block;
