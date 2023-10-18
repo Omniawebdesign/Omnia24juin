@@ -299,7 +299,7 @@ span{
   #navigation .logo img {
     width: auto;
     height: 100%;
-    margin-left: 5.1px;
+    margin-left: 5.1em;
   }
   #navigation .logo .light {
     display: block;
@@ -557,7 +557,7 @@ span{
   #navigation .logo img {
     width: auto;
     height: 100%;
-    margin-left: 5.1px;
+    margin-left: 5.1em;
   }
   #navigation #navbar-menu {
     font-size: min(1.2vw, 1em);
