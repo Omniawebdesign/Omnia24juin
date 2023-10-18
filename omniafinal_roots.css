@@ -557,6 +557,7 @@ span{
   #navigation .logo img {
     width: auto;
     height: 100%;
+    margin-left: 5.1px;
   }
   #navigation #navbar-menu {
     font-size: min(1.2vw, 1em);
