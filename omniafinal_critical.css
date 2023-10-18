@@ -978,7 +978,8 @@ h3{
   #hero h1{
     font-family:'poppinsbold', sans-serif;
     font-weight: bold;
-    font-size: 68px;
+    font-size: 65px;
+    line-height: 1.1em;
   }
 
   }
