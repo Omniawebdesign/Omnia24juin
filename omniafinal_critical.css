@@ -1820,3 +1820,8 @@ padding: clamp(2rem, 3.5vw, 3rem);
   width: 425px;
     height: 425px;
 }
+
+
+cs-flower{
+  margin-right: 8em;
+}
