@@ -1824,6 +1824,8 @@ padding: clamp(2rem, 3.5vw, 3rem);
 
 
 .cs-flower{
-  margin-right: 14em;
-  scale: 1.59;
+  margin-right: 16.59em;
+  scale: 1.79;
+  height: 90%;
+  margin-bottom: 3em;
 }
