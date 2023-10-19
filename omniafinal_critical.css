@@ -150,7 +150,7 @@ span{
       margin: 0;
       /* 8px - 16px */
       margin-bottom: clamp(0.5rem, 1.5vw, 1rem);
-      color: var(--headerColor);
+      color: #21102F;
       transition: color .3s;
       
     }
