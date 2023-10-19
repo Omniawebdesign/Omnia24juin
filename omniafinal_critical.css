@@ -620,7 +620,7 @@ h3{
       transition-delay: .2s;
     }
     #pricing-7919 .cs-popular {
-      background: #31333e;
+      background: #2A1640;
       position: relative;
       /* clips the popular tag */
       overflow: hidden;
@@ -638,7 +638,7 @@ h3{
       width: 10.625rem;
       padding: 0 0.75rem;
       color: #fff;
-      background-color: var(--secondary1);
+      background-color: #9D86B0;
       position: absolute;
       display: block;
       top: 1.25rem;
@@ -655,10 +655,10 @@ h3{
       color: var(--bodyTextColorWhite);
     }
     #pricing-7919 .cs-popular .cs-button-solid {
-      
+      background: #9D86B0;
       color: white;
       transition: color .3s;
-      border: 2px solid white;
+      border: 2px solid #9D86B0;
     }
     #pricing-7919 .cs-popular .cs-button-solid:before {
       background-color: white;
