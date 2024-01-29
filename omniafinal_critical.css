@@ -1941,12 +1941,12 @@ padding: clamp(2rem, 3.5vw, 3rem);
         line-height: 1.5em;
         text-align: inherit;
         width: 100%;
-        max-width: 40.625rem;
+        max-width: 600px;
         margin: 0;
         color: var(--bodyTextColor);
     }
     #why-choose-892 .cs-text {
-        max-width: 62.5rem;
+        max-width: 600px;
     }
     #why-choose-892 .cs-button-solid {
         font-size: 1rem;
