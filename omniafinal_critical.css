@@ -1894,6 +1894,9 @@ padding: clamp(2rem, 3.5vw, 3rem);
         position: relative;
         z-index: 1;
     }
+  span{
+    display:inline;
+  }
     #why-choose-892 .cs-container {
         width: 100%;
         /* changes to 1280px at tablet */
