@@ -1959,8 +1959,8 @@ padding: clamp(2rem, 3.5vw, 3rem);
         color: #fff;
         min-width: 9.375rem;
         padding: 0 1.5rem;
-        background-color: var(--primary);
-        border-radius: 0.25rem;
+        background-color: #9D86B0;
+        border-radius: 35px;
         display: inline-block;
         position: relative;
         z-index: 1;
@@ -1998,7 +1998,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
         list-style: none;
         /* 20px - 32px */
         padding: clamp(1.25rem, 2.3vw, 2rem);
-        background-color: #fef7f4;
+        
         border-radius: 1rem;
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
@@ -2009,6 +2009,7 @@ padding: clamp(2rem, 3.5vw, 3rem);
         grid-column: span 6;
         position: relative;
         z-index: 1;
+      box-shadow: 0 0.2em 0.85em rgb(0 0 0 / 40%) ;
     }
     #why-choose-892 .cs-icon {
         width: 3rem;
